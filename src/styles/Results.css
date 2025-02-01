@@ -1,0 +1,13 @@
+.results {
+  background-color: white; /* Light teal background */
+  color: #2C3E50; /* Dark gray text */
+  font-family: "Roboto", sans-serif; /* Consistent app font */
+  padding: 20px; /* Inner spacing */
+  font-size: 18px; /* Readable text size */
+  text-align: left; /* Align text to the left */
+  border-top: 2px solid white; /* Vibrant teal top border */
+  border-radius: 10px; /* Smooth rounded corners */
+  min-height: 100px; /* Ensures minimum height */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 20px;
+}

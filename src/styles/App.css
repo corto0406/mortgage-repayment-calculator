@@ -1,0 +1,96 @@
+/* Main container */
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px; /* Increased max-width for a more stretched-out look */
+  width: 100%;
+  margin: 0 auto;
+  
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  color: #2C3E50; /* Dark Gray */
+}
+
+/* Card Styling */
+.card,
+.results-card {
+  flex: 1;
+  background-color: white; /* Muted Teal */
+  border: 1px solid #90A4AE; /* Soft Gray Border */
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Reduced padding for a more stretched look */
+  min-height: 420px;
+  width: 100%;
+  max-width: 700px; /* Increased max-width for a more stretched look */
+  margin-bottom: 30px; /* Increased spacing between cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Subtle hover effects */
+}
+
+.results-card p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  
+}
+
+.explanation {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+}
+
+.card:hover,
+.results-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.results-card {
+  background-color: #001F3F;
+  border-color: navy; 
+}
+
+.card h2 {
+  font-size: 2rem; /* Larger font size for headers */
+  margin-bottom: 25px; /* Increased margin for header spacing */
+  color: #001F3F; /* Deep Blue */
+  font-family: 'Roboto', sans-serif;
+}
+
+  .results-card h2 {
+  font-size: 2rem; /* Larger font size for headers */
+  margin-bottom: 25px; /* Increased margin for header spacing */
+  color: white; /* Deep Blue */
+  font-family: 'Roboto', sans-serif;
+}
+
+.card form,
+.results-card .results {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Increased gap between form elements */
+}
+
+/* Content Area Styling */
+.calculator-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px; /* Increased gap between items */
+  padding: 40px; /* Increased padding for content area */
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .calculator-content {
+    flex-direction: column;
+  }
+
+  .card,
+  .results-card {
+    max-width: 100%; /* Full width for cards on small screens */
+  }
+}
