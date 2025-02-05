@@ -4,6 +4,8 @@
 
 **Mortgage Repayment Calculator** is a modern, responsive web application that helps users estimate their mortgage repayments based on loan amount, interest rate, and loan duration. Designed for usability, the application ensures a seamless experience across desktop, tablet, and mobile devices.  
 
+**Live Demo:** [Mortgage Repayment Calculator](https://nemanjas-calculator.netlify.app)  
+
 ## Features  
 
 - **Responsive & Adaptive UI** – Ensures an optimal user experience on all screen sizes.  
